@@ -45,7 +45,7 @@ a{
 .btn1{
 background: rgb(218, 185, 39);
 color: #fff;
-margin-top: 6px;
+margin-top: 20px;
 padding: 14px 25px;
 font-size: 16px;
 border-radius: 30px;
@@ -62,3 +62,12 @@ justify-content: center;
   margin-left: 10px;
 }
 
+@media (max-width: 1200px){
+  .container{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .btn{
+    padding: 14px 22px;
+  }
+}
