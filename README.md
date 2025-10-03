@@ -21,6 +21,15 @@ Modern CSS for styling and layout
 
 Components structure for easy maintenance
 
+## Design Choices
+
+- **Clean and Minimal UI:** The layout uses clear typography, subtle colors, and whitespace for better readability and to keep users focused on content.
+- **Component-based Structure:** Built with React + Vite for fast development and easy code management.
+- **Responsiveness:** Designed to work smoothly on desktop and mobile (media queries and grid layouts).
+- **User-focused Sections:** Features, testimonials, about, and contact sections address the main needs of students seeking IELTS training.
+
+This structure provides a positive, trustworthy experience for prospective learners.
+
 How to run:
 Clone the repo and install dependencies (npm install)
 
