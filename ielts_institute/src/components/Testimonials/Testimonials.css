@@ -1,0 +1,112 @@
+.testimonials-section {
+  background: #f3f4f6;
+  padding: 4rem 0 6rem 0;
+}
+
+.testimonials-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.testimonials-header h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1a202c;
+  margin-bottom: 0.75rem;
+}
+.testimonials-header p {
+  color: #6b7280;
+  font-size: 1.1rem;
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+.testimonials-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.testimonial-card {
+  background: #fff;
+  border-radius: 1.2rem;
+  box-shadow: 0 6px 24px rgba(55,100,255, 0.08), 0 1.5px 6px rgba(0,0,0,0.04);
+  border: 1px solid #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1.5rem 1.5rem;
+  transition: box-shadow 0.22s;
+}
+.testimonial-card:hover {
+  box-shadow: 0 10px 24px rgba(55,100,255,0.13), 0 2px 8px rgba(0,0,0,0.09);
+}
+
+.quote-icon {
+  margin-bottom: 0.6rem;
+  color: #2563eb;
+}
+
+.testimonial-review {
+  color: #374151;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  margin-bottom: 1.2rem;
+}
+
+.testimonial-rating {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  margin-bottom: 1rem;
+}
+.testimonial-rating-num {
+  margin-left: 0.5rem;
+  color: #64748b;
+  font-size: 1rem;
+}
+
+.testimonial-user-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.7rem;
+}
+.testimonial-img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #bfdbfe;
+}
+.testimonial-name {
+  font-weight: 600;
+  color: #1e293b;
+}
+.testimonial-country {
+  font-size: 0.9rem;
+  color: #64748b;
+}
+.testimonial-score {
+  margin-left: auto;
+  text-align: right;
+}
+.score-main {
+  color: #2563eb;
+  font-size: 1.45rem;
+  font-weight: 700;
+}
+.score-label {
+  font-size: 0.75rem;
+  color: #64748b;
+}
+.testimonial-course {
+  display: inline-block;
+  background: #e0e7ff;
+  color: #3730a3;
+  font-size: 0.85rem;
+  padding: 0.32rem 0.9rem;
+  border-radius: 99px;
+  margin-top: 0.5rem;
+  font-weight: 500;
+}
